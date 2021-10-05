@@ -1,0 +1,21 @@
+2021-10-05 06:06:12 rolled over log file
+2021-10-05 06:06:12 INFO 104857 /home/jenkins.svc/workspace/electric-seeds/postcommit/euphrates-5.16.0.1-stable/gcc-release-nosharedlibs-aos-x86_64/infrastructure/cluster/service_monitor/service_monitor.c:254 main: /home/nutanix/bin/service_monitor: appending fatal messages to /home/nutanix/data/logs/catalog.FATAL
+2021-10-05 06:06:12 INFO 104857 /home/jenkins.svc/workspace/electric-seeds/postcommit/euphrates-5.16.0.1-stable/gcc-release-nosharedlibs-aos-x86_64/infrastructure/cluster/service_monitor/service_monitor.c:180 StartServiceMonitor: Launched child with pid: 104861
+2021-10-05 06:06:12 INFO 104861 /home/jenkins.svc/workspace/electric-seeds/postcommit/euphrates-5.16.0.1-stable/gcc-release-nosharedlibs-aos-x86_64/infrastructure/cluster/service_monitor/service_monitor.c:212 StartService: Starting service with cmd: /home/nutanix/bin/catalog
+2021-10-05 06:06:12 INFO 104861 /home/jenkins.svc/workspace/electric-seeds/postcommit/euphrates-5.16.0.1-stable/gcc-release-nosharedlibs-aos-x86_64/infrastructure/cluster/service_monitor/service_monitor.c:134 RefreshZkHostPortList: Setting ZOOKEEPER_HOST_PORT_LIST=zk1:9876;
+2021-10-05 06:06:16 INFO rpc_counter.py:147 [catalog_rpc_server_stats] Creating metric table for Nusights
+2021-10-05 06:06:16 INFO rpc_counter.py:149 [catalog_rpc_server_stats] Registered keys: ['process_id', 'method']
+2021-10-05 06:06:16 INFO rpc_counter.py:151 [catalog_rpc_server_stats] Registered metrics: ['requests_received', 'success_count', 'error_count', 'success_response_time_usec', 'error_response_time_usec']
+2021-10-05 06:06:16 INFO zookeeper_session.py:143 catalog is attempting to connect to Zookeeper
+2021-10-05 06:06:16 INFO rpc_counter.py:147 [catalog_outgoing_rpc_stats] Creating metric table for Nusights
+2021-10-05 06:06:16 INFO rpc_counter.py:149 [catalog_outgoing_rpc_stats] Registered keys: ['process_id', 'service_name', 'method']
+2021-10-05 06:06:16 INFO rpc_counter.py:151 [catalog_outgoing_rpc_stats] Registered metrics: ['requests_sent', 'success_count', 'error_count', 'success_response_time_usec', 'error_response_time_usec']
+2021-10-05 06:06:16 INFO namespace.py:190 Loading resource util.mincli.modules
+2021-10-05 06:06:16 INFO namespace.py:190 Loading resource catalog.shell.modules
+2021-10-05 06:06:17 INFO master.py:70 Volunteering for master leadership
+2021-10-05 06:06:17 INFO master.py:111 Acquired master leadership
+2021-10-05 06:06:17 INFO task_store.py:59 Task Dispatcher started.
+2021-10-05 06:06:17 INFO client.py:186 Creating stub for Ergon on 127.0.0.1: 2090
+2021-10-05 06:06:17 INFO heartbeat.py:226 [catalog_service_health] Nusights metric table is registered
+2021-10-05 06:06:17 INFO heartbeat.py:198 [catalog_service_health] Sending heartbeat to PulseHD every 7 secs
+2021-10-05 06:36:17 INFO scanner.py:158 RSS utilization: 115
